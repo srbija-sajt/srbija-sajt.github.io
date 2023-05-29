@@ -1,0 +1,68 @@
+body,
+html {
+    height: 100%;
+    background-color: #455d7a;
+}
+
+.glavni-div {
+    background-color: #f95959;
+    height: 20%;
+    position: relative;
+}
+
+.logo {
+    height: 100%;
+    margin-left: 20px;
+    float: left;
+}
+
+.glavni-naslov {
+    text-align: center;
+    color: #e3e3e3;
+    font-size: x-large;
+    overflow: auto;
+}
+
+.glavni-podnaslov {
+    text-align: left;
+    color: #e3e3e3;
+    font-size: large;
+    overflow: auto;
+}
+.div-sa-slikom {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+.div-sa-slikom img {
+    border:2px solid black;
+    border-radius: 3px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #233142;
+}
+
+.navbar a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a img {
+    height: 20px;
+    vertical-align: middle;
+}
+.navbar a:hover {
+    transition: 0.2s;
+    background-color: #5d81ac;
+    color: black;
+}
+footer {
+    color: #f2f2f2;
+    font-size: large;
+    background-color: #233142;
+    text-align: center;
+}
